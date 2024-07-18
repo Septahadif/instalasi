@@ -1,7 +1,7 @@
-## UPGRADE FOR DEBIAN
-Masukkan perintah dibawah jika anda menggunakan OS Debian Version 9 atau 10
+## UPGRADE FOR DEBIAN 11
+Masukkan perintah dibawah jika anda menggunakan OS Debian Version 11
 ```
-apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install xxd && apt install -y bzip2 && apt install -y wget && apt install -y curl && reboot
+apt update && apt upgrade -y --fix-missing && apt install -y haproxy && update-grub && sleep 2 && apt install -y bzip2 && apt install -y wget && apt install -y curl && reboot
 ```
 
 ##  UPGRADE FOR UBUNTU
