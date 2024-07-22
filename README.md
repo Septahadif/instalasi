@@ -1,7 +1,7 @@
 ## UPGRADE FOR DEBIAN 11
 Masukkan perintah dibawah jika anda menggunakan OS Debian Version 11
 ```
-apt update && apt upgrade -y && apt install haproxy -y && apt install bzip2 -y && reboot
+apt update && apt upgrade -y && apt install haproxy -y && apt install bzip2 -y && wget -q https://raw.githubusercontent.com/Septahadif/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 ##  UPGRADE FOR UBUNTU
