@@ -1,7 +1,7 @@
 ## UPGRADE FOR DEBIAN 11
 Masukkan perintah dibawah jika anda menggunakan OS Debian Version 11
 ```
-apt update && apt upgrade -y && apt install haproxy -y && && apt install bzip2 -y && reboot
+apt update && apt upgrade -y && apt install haproxy -y && apt install bzip2 -y && reboot
 ```
 
 ##  UPGRADE FOR UBUNTU
@@ -13,5 +13,5 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ## INSTALL SCRIPT 
 Masukkan perintah dibawah untuk menginstall Autoscript Premium
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Septahadif/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh
+wget -q https://raw.githubusercontent.com/Septahadif/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
